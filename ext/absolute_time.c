@@ -42,7 +42,7 @@ static double get_absolute_time(void);
 
 /*
  * call-seq:
- *   AbsoluteTime.now() -> Float
+ *   AbsoluteTime.now() -> float
  *
  * Returns the current value of the system timer as a floating-point number of seconds.
  * Although the units of the return value are seconds, they cannot be safely
@@ -61,7 +61,7 @@ module_now(VALUE self_)
 
 /*
  * call-seq:
- *   AbsoluteTime.realtime() { || ... } -> Float
+ *   AbsoluteTime.realtime() { || ... } -> float
  *
  * Like Benchmark.realtime(), returns the elapsed time to execute the specified block,
  * as a floating-point number of seconds.
