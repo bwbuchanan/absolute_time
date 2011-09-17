@@ -23,7 +23,7 @@ this module.
   s.files         = `git ls-files`.split("\n")
   s.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n")
   s.executables   = `git ls-files -- bin/*`.split("\n").map{ |f| File.basename(f) }
-  s.extensions    = 'extconf.rb'
+  s.extensions    = 'ext/extconf.rb'
   s.has_rdoc      = true
-  s.extra_rdoc_files = `git ls-files -- *.c`.split("\n")
+  s.extra_rdoc_files = `git ls-files -- ext/*.c`.split("\n")
 end
