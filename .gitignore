@@ -1,0 +1,10 @@
+*.gem
+*.bundle
+*.so
+*.o
+*.log
+*.tmproj
+Makefile
+.bundle
+Gemfile.lock
+pkg/*
