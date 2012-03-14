@@ -35,8 +35,8 @@ Usage:
 
 Function took 5.0002783499658108 seconds to complete.
 
-# Time an action using AbsoluteTime.measure, which acts like Benchmark.measure.
->> AbsoluteTime.measure { function_that_takes_a_long_time() }
+# Time an action using AbsoluteTime.realtime, which acts like Benchmark.realtime.
+>> AbsoluteTime.realtime { function_that_takes_a_long_time() }
 => 5.0002783499658108
 
 Supported platforms: Darwin (Mac OS X), FreeBSD, Linux
