@@ -42,7 +42,7 @@ If you can add support for another platform, please do so and send me a pull req
 
 ## Signed Gem
 
-For your protection, this gem is cryptographically signed by the author. The singing certificate is available at:
+For your protection, this gem is cryptographically signed by the author. The signing certificate is available at:
 
 https://raw.github.com/bwbuchanan/absolute_time/master/gem-public_cert.pem
 
